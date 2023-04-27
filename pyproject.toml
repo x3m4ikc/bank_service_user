@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "service"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav <v.sergienko@astondevs.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.1.5"
+djangorestframework = "^3.14.0"
+black = "^22.12.0"
+isort = "^5.11.4"
+flake8 = "^6.0.0"
+python-dotenv = "^0.21.0"
+psycopg2-binary = "^2.9.5"
+djangorestframework-simplejwt = "^5.2.2"
+
+
+pre-commit = "^3.0.2"
+pytest = "^7.2.1"
+pytest-django = "^4.5.2"
+factory-boy = "^3.2.1"
+faker = "^16.6.1"
+drf-yasg = "^1.21.4"
+fake = "^0.8"
+pytest-factoryboy = "^2.5.1"
+pytest-snapshot = "^0.9.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
